@@ -1,0 +1,318 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\EPAM_TestAutomation_Tests\\Epam_TestAutomation_Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Epam_TestAutomation_BusinessLogic\\EpamTestAutomationBusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Epam_TestAutomation_BusinessLogic\\EpamTestAutomationBusinessLogic.csproj",
+        "projectName": "EpamTestAutomationBusinessLogic",
+        "projectPath": "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Epam_TestAutomation_BusinessLogic\\EpamTestAutomationBusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\Mi Air\\.nuget\\packages\\",
+        "outputPath": "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Epam_TestAutomation_BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mi Air\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Test_Automation_Framework\\EpamTestAutomationCore.csproj": {
+                "projectPath": "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Test_Automation_Framework\\EpamTestAutomationCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[108.0.5359.7100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\EPAM_TestAutomation_Tests\\Epam_TestAutomation_Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\EPAM_TestAutomation_Tests\\Epam_TestAutomation_Tests.csproj",
+        "projectName": "Epam_TestAutomation_Tests",
+        "projectPath": "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\EPAM_TestAutomation_Tests\\Epam_TestAutomation_Tests.csproj",
+        "packagesPath": "C:\\Users\\Mi Air\\.nuget\\packages\\",
+        "outputPath": "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\EPAM_TestAutomation_Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mi Air\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Epam_TestAutomation_BusinessLogic\\EpamTestAutomationBusinessLogic.csproj": {
+                "projectPath": "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Epam_TestAutomation_BusinessLogic\\EpamTestAutomationBusinessLogic.csproj"
+              },
+              "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Test_Automation_Framework\\EpamTestAutomationCore.csproj": {
+                "projectPath": "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Test_Automation_Framework\\EpamTestAutomationCore.csproj"
+              },
+              "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Test_Automation_Utilities\\EpamTestAutomationUtilities.csproj": {
+                "projectPath": "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Test_Automation_Utilities\\EpamTestAutomationUtilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[108.0.5359.7100, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Test_Automation_Framework\\EpamTestAutomationCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Test_Automation_Framework\\EpamTestAutomationCore.csproj",
+        "projectName": "EpamTestAutomationCore",
+        "projectPath": "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Test_Automation_Framework\\EpamTestAutomationCore.csproj",
+        "packagesPath": "C:\\Users\\Mi Air\\.nuget\\packages\\",
+        "outputPath": "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Test_Automation_Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mi Air\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Test_Automation_Utilities\\EpamTestAutomationUtilities.csproj": {
+                "projectPath": "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Test_Automation_Utilities\\EpamTestAutomationUtilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[108.0.5359.7100, )"
+            },
+            "ServiceStack.Common": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Test_Automation_Utilities\\EpamTestAutomationUtilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Test_Automation_Utilities\\EpamTestAutomationUtilities.csproj",
+        "projectName": "EpamTestAutomationUtilities",
+        "projectPath": "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Test_Automation_Utilities\\EpamTestAutomationUtilities.csproj",
+        "packagesPath": "C:\\Users\\Mi Air\\.nuget\\packages\\",
+        "outputPath": "D:\\Users10\\Mi Air\\Downloads\\Test_Automation_Framework-test_automation_framework\\Test_Automation_Framework\\Test_Automation_Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mi Air\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[108.0.5359.7100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

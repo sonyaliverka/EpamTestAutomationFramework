@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8d6/qefUXkSdxgPYjYcJU4/mqL3qBVQ8OdCXEWI+Cxu4vmA8IPGa2oqg/2+sHODHBST9cAM09DvDfEbzNEWZoQ==",
+  "success": true,
+  "projectFilePath": "C:\\ленинг\\Test_Automation_Framework\\Test_Automation_Utilities\\EpamTestAutomationUtilities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mi Air\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Mi Air\\.nuget\\packages\\selenium.webdriver\\4.7.0\\selenium.webdriver.4.7.0.nupkg.sha512",
+    "C:\\Users\\Mi Air\\.nuget\\packages\\selenium.webdriver.chromedriver\\108.0.5359.7100\\selenium.webdriver.chromedriver.108.0.5359.7100.nupkg.sha512"
+  ],
+  "logs": []
+}
